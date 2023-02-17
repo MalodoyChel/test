@@ -1,0 +1,414 @@
+@font-face {
+  font-family: "Titillum";
+  src: url(./SardorsFonts/TitilliumWeb/TitilliumWeb-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Titillum";
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.SardorNav1 {
+  width: 100%;
+  height: 100px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #EAEAEA;
+}
+.SardorNav1 ul {
+  margin: 0;
+  padding: 0;
+}
+.SardorNav1 ul li {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.SardorNav1 .SardorUl1 {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 44px;
+}
+.SardorNav1 .SardorUl1 li:first-child {
+  position: relative;
+  width: 42px;
+  height: 42px;
+}
+.SardorNav1 .SardorUl1 li:first-child img {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+.SardorNav1 .SardorUl1 p {
+  font-weight: 600;
+  font-size: 32px;
+  opacity: 0.8;
+}
+.SardorNav1 .SardorUl1 p a {
+  color: #454545;
+}
+.SardorNav1 .SardorUl2 {
+  width: 30%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SardorNav1 .SardorUl2 button {
+  width: 45px;
+  height: 50px;
+  padding: 13.755px;
+  background: rgba(242, 242, 242, 0.5019607843);
+  border-radius: 6px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+}
+.SardorNav1 .SardorUl2 button i {
+  width: 17.49px;
+  height: 17.49px;
+}
+.SardorNav1 .SardorUl2 input {
+  width: 372.6px;
+  height: 50px;
+  padding: 13.755px;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  background: rgba(242, 242, 242, 0.5019607843);
+  border-radius: 0 6px 6px 0;
+  border: none;
+}
+.SardorNav1 .SardorUl2 input:focus {
+  outline: none;
+}
+.SardorNav1 .SardorUl3 {
+  width: 20%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.SardorNav1 .SardorUl3 p {
+  margin: 0;
+}
+.SardorNav1 .SardorUl3 li:first-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+.SardorNav1 .SardorUl3 li:first-child img {
+  width: 44px;
+}
+.SardorNav1 .SardorUl3 li:nth-child(2) {
+  width: 98.06px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SardorNav1 .SardorUl3 li:nth-child(2) .SardorUl35 {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  align-items: center;
+}
+.SardorNav1 .SardorUl3 li:nth-child(2) .SardorUl35 p {
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.SardorNav1 .SardorUl3 li:last-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.SardorNav1 .SardorUl3 li:last-child i {
+  margin-left: -75%;
+}
+
+.SardorNav2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6%;
+  height: 100vh;
+  padding: 3% 2%;
+  background: #FFF9F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.SardorNav2 ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.SardorNav2 ul:first-child {
+  padding-top: 100px;
+}
+.SardorNav2 ul:first-child li:first-child {
+  margin-bottom: 30px;
+}
+.SardorNav2 ul:last-child {
+  width: 86.4px;
+  border-top: 2px solid #EAEAEA;
+  padding-top: 26px;
+  padding-right: 28.8px;
+}
+.SardorNav2 ul li {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+main {
+  width: 94%;
+  height: 82.5vh;
+  padding: 1.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main p {
+  margin: 0;
+}
+main section {
+  width: 100%;
+  height: 100%;
+  padding: 1.9%;
+  background: #FBFBFB;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+main section .SardorTop {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.5%;
+}
+main section .SardorTop .SardorLeft {
+  width: 7.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .SardorTop .SardorLeft img {
+  width: 100%;
+}
+main section .SardorTop .SardorMid {
+  display: grid;
+  justify-content: flex-start;
+}
+main section .SardorTop .SardorMid p {
+  font-weight: 600;
+  font-size: 24px;
+  color: #181818;
+}
+main section .SardorTop .SardorRight {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+main section .SardorTop .SardorRight a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+}
+main section .SardorBottom {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+}
+main section .SardorBottom .SardorTitle {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+main section .SardorBottom .SardorTitle p {
+  font-weight: 600;
+  font-size: 24px;
+  color: #181818;
+}
+main section .SardorBottom .SardorInfos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: flex-start;
+  gap: 40px;
+}
+main section .SardorBottom .SardorInfos .SardorInLeft {
+  display: grid;
+  gap: 24px;
+}
+main section .SardorBottom .SardorInfos .SardorInLeft p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #5E5757;
+}
+main section .SardorBottom .SardorInfos .SardorInRight {
+  display: grid;
+  gap: 22px;
+}
+main section .SardorBottom .SardorInfos .SardorInRight p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #181818;
+}
+main section .SardorBottom .SardorInfos .SardorInRight a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 24px;
+  color: #181818;
+}
+main section .SardorBottom .SardorInfos .SardorInRight a:first-child {
+  margin-top: -4.7px;
+  color: #FE8627;
+}
+
+.SardorBackModal {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(66, 64, 64, 0.21);
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.SardorBackModal p {
+  margin: 0;
+}
+.SardorBackModal .SardorModal {
+  position: relative;
+  padding: 3%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(254, 134, 39, 0.41);
+  gap: 6%;
+}
+.SardorBackModal .SardorModal .SardorModTop {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+.SardorBackModal .SardorModal .SardorModTop .SardorModTopLeft {
+  width: 70px;
+  display: grid;
+  justify-content: flex-end;
+  gap: 34px;
+}
+.SardorBackModal .SardorModal .SardorModTop .SardorModTopLeft p {
+  text-align: end;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.72);
+}
+.SardorBackModal .SardorModal .SardorModTop .SardorModTopRight {
+  display: grid;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.SardorBackModal .SardorModal .SardorModTop .SardorModTopRight input {
+  width: 543px;
+  height: 41px;
+  padding: 7px 10px;
+  border: 0.5px solid #FE8627;
+  filter: drop-shadow(1px 1px 4px rgba(254, 134, 39, 0.5)) drop-shadow(-1px -1px 4px rgba(254, 134, 39, 0.5));
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 400;
+  font-size: 18px;
+}
+.SardorBackModal .SardorModal .SardorModTop .SardorModTopRight input:focus {
+  outline: none;
+}
+.SardorBackModal .SardorModal .SardorModBottom {
+  width: 101.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3%;
+}
+.SardorBackModal .SardorModal .SardorModBottom .SardorModExit {
+  font-weight: 400;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: #222020;
+}
+.SardorBackModal .SardorModal .SardorModBottom .SardorModSave {
+  width: 124px;
+  height: 34px;
+  font-weight: 400;
+  font-size: 20px;
+  background: #FE8627;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1441px) {
+  .SardorImg1 {
+    top: 113.5px !important;
+  }
+  .SardorImg2 {
+    top: 175.5px !important;
+  }
+  .SardorImg3 {
+    top: 236.5px !important;
+  }
+}/*# sourceMappingURL=Sardor'sStyle.css.map */

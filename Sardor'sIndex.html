@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+    <link rel="shotcut icon" href="./Sardor'sLogo/emprotoLogo.svg">
+    <link rel="stylesheet" href="./Sardor'sIcons/fontawesome-free-6.3.0-web/css/all.css">
+    <link rel="stylesheet" href="./Sardor'sStyle.css">
+</head>
+
+<body>
+    <nav class="SardorNav1">
+        <ul class="SardorUl1">
+            <li><a href="#"><img src="./Sardor'sLogo/emprotoLogo.svg"></a></li>
+            <li>
+                <p><a href="#">My Profile</a></p>
+            </li>
+        </ul>
+        <ul class="SardorUl2">
+            <li><button><i class="fa fa-search"></i></button></li>
+            <li><input type="text" placeholder="Search by Email Id....."></li>
+        </ul>
+        <ul class="SardorUl3">
+            <li><img src="./Sardor'sImages/englishWoman.png"></li>
+            <li>
+                <ul class="SardorUl35">
+                    <li>
+                        <p class="SardorNames1">Ram Darvin</p>
+                    </li>
+                    <li>
+                        <p class="SardorProfiles1" style="opacity: 0.7; font-weight: 400; font-size: 14px;">Super Admin
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <i class="fas fa-caret-down"></i>
+            </li>
+        </ul>
+    </nav>
+    <nav class="SardorNav2">
+        <ul>
+            <li><a href="#"><img src="./Sardor'sImages/obj-column.svg"></a></li>
+            <li><a href="#"><img src="./Sardor'sImages/user-in-clock.svg"></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa fa-arrow-right-from-bracket"></i></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <div class="SardorTop">
+                <div class="SardorLeft">
+                    <img src="./Sardor'sImages/englishWoman.png">
+                </div>
+                <div class="SardorMid">
+                    <p class="SardorNames">Ram Darvin</p>
+                    <p class="SardorProfiles" style="opacity: 0.7; font-weight: 400; font-size: 14px; color: #000000;">
+                        Super Admin
+                    </p>
+                </div>
+                <div class="SardorRight">
+                    <a href="#" class="SardorOpenMod"><i class="fa-solid fa-pencil"></i></a>
+                </div>
+            </div>
+            <div class="SardorBottom">
+                <div class="SardorTitle">
+                    <p>User Information</p>
+                </div>
+                <div class="SardorInfos">
+                    <div class="SardorInLeft">
+                        <p>Email ID</p>
+                        <p>Role</p>
+                        <p>Profile</p>
+                        <p>Phone</p>
+                    </div>
+                    <div class="SardorInRight">
+                        <a href="mailto:ramdarvin0@emproto.com" class="SardorMail">ramdarvin0@emproto.com</a>
+                        <p class="SardorJob">Co-founder</p>
+                        <p class="SardorStatus">Super Admin</p>
+                        <a href="tel:+8088927630" class="SardorTel">8088927630</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="SardorBackModal">
+        <div class="SardorModal">
+            <div class="SardorModTop">
+                <div class="SardorModTopLeft">
+                    <p>Name</p>
+                    <p>Email ID</p>
+                    <p>Role</p>
+                    <p>Profile</p>
+                    <p>Phone</p>
+                </div>
+                <form class="SardorModTopRight">
+                    <input type="text" name="SardorInpName" class="SardorInpName" placeholder="Ram Darvin" required>
+                    <input type="email" name="SardorInpMail" class="SardorInpMail" placeholder="ramdarvin0@emproto.com"
+                        required><img src="./Sardor'sImages/lock-keyhole.svg" class="SardorImg1"
+                        style="position: absolute; right: 60px; top: 116px;">
+                    <input type="text" name="SardorInpRole" class="SardorInpRole" placeholder="Co-founder" required>
+                    <img src="./Sardor'sImages/lock-keyhole.svg" class="SardorImg2"
+                        style="position: absolute; right: 60px; top: 177px;">
+                    <input type="text" name="SardorInpProfile" class="SardorInpProfile" placeholder="Super Admin"
+                        required>
+                    <img src="./Sardor'sImages/lock-keyhole.svg" class="SardorImg3"
+                        style="position: absolute; right: 60px; top: 238px;">
+                    <input type="tel" name="SardorInpTel" class="SardorInpTel" placeholder="8088927630" required>
+                </form>
+            </div>
+            <div class="SardorModBottom">
+                <button class="SardorModExit">Cancel</button>
+                <button class="SardorModSave">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Sardor'sMain.js"></script>
+</body>
+
+</html>
