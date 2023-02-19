@@ -19,7 +19,7 @@ body {
   justify-content: flex-end;
 }
 
-.SardorNav1 {
+.Sardor_Nav1 {
   width: 100%;
   height: 100px;
   padding: 24px;
@@ -27,16 +27,16 @@ body {
   align-items: center;
   border-bottom: 2px solid #EAEAEA;
 }
-.SardorNav1 ul {
+.Sardor_Nav1 ul {
   margin: 0;
   padding: 0;
 }
-.SardorNav1 ul li {
+.Sardor_Nav1 ul li {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
-.SardorNav1 .SardorUl1 {
+.Sardor_Nav1 .Sardor_Ul1 {
   width: 50%;
   height: inherit;
   display: flex;
@@ -44,33 +44,33 @@ body {
   align-items: center;
   gap: 44px;
 }
-.SardorNav1 .SardorUl1 li:first-child {
+.Sardor_Nav1 .Sardor_Ul1 li:first-child {
   position: relative;
   width: 42px;
   height: 42px;
 }
-.SardorNav1 .SardorUl1 li:first-child img {
+.Sardor_Nav1 .Sardor_Ul1 li:first-child img {
   position: absolute;
   width: 42px;
   height: 42px;
   z-index: 1;
 }
-.SardorNav1 .SardorUl1 p {
+.Sardor_Nav1 .Sardor_Ul1 p {
   font-weight: 600;
   font-size: 32px;
   opacity: 0.8;
 }
-.SardorNav1 .SardorUl1 p a {
+.Sardor_Nav1 .Sardor_Ul1 p a {
   color: #454545;
 }
-.SardorNav1 .SardorUl2 {
+.Sardor_Nav1 .Sardor_Ul2 {
   width: 30%;
   height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.SardorNav1 .SardorUl2 button {
+.Sardor_Nav1 .Sardor_Ul2 button {
   width: 45px;
   height: 50px;
   padding: 13.755px;
@@ -79,11 +79,12 @@ body {
   border: none;
   border-radius: 6px 0 0 6px;
 }
-.SardorNav1 .SardorUl2 button i {
+.Sardor_Nav1 .Sardor_Ul2 button i {
   width: 17.49px;
   height: 17.49px;
+  cursor: pointer;
 }
-.SardorNav1 .SardorUl2 input {
+.Sardor_Nav1 .Sardor_Ul2 input {
   width: 372.6px;
   height: 50px;
   padding: 13.755px;
@@ -94,35 +95,38 @@ body {
   border-radius: 0 6px 6px 0;
   border: none;
 }
-.SardorNav1 .SardorUl2 input:focus {
+.Sardor_Nav1 .Sardor_Ul2 input:focus {
   outline: none;
 }
-.SardorNav1 .SardorUl3 {
+.Sardor_Nav1 .Sardor_Ul3 {
   width: 20%;
   height: inherit;
-  display: flex;
+  padding: 0.001%;
+  display: grid;
+  grid-template-columns: auto 80px auto;
   justify-content: flex-end;
   align-items: center;
+  gap: 5%;
 }
-.SardorNav1 .SardorUl3 p {
+.Sardor_Nav1 .Sardor_Ul3 p {
   margin: 0;
 }
-.SardorNav1 .SardorUl3 li:first-child {
+.Sardor_Nav1 .Sardor_Ul3 li:first-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 5%;
 }
-.SardorNav1 .SardorUl3 li:first-child img {
+.Sardor_Nav1 .Sardor_Ul3 li:first-child img {
   width: 44px;
 }
-.SardorNav1 .SardorUl3 li:nth-child(2) {
-  width: 98.06px;
+.Sardor_Nav1 .Sardor_Ul3 li:nth-child(2) {
+  width: 100%;
+  padding: 0.001%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.SardorNav1 .SardorUl3 li:nth-child(2) .SardorUl35 {
+.Sardor_Nav1 .Sardor_Ul3 li:nth-child(2) .Sardor_Ul35 {
   width: 100%;
   height: inherit;
   display: flex;
@@ -130,21 +134,19 @@ body {
   justify-self: center;
   align-items: center;
 }
-.SardorNav1 .SardorUl3 li:nth-child(2) .SardorUl35 p {
+.Sardor_Nav1 .Sardor_Ul3 li:nth-child(2) .Sardor_Ul35 p {
   font-weight: 600;
   font-size: 16px;
   opacity: 0.8;
 }
-.SardorNav1 .SardorUl3 li:last-child {
+.Sardor_Nav1 .Sardor_Ul3 li:last-child {
+  padding: 0.001%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.SardorNav1 .SardorUl3 li:last-child i {
-  margin-left: -75%;
-}
 
-.SardorNav2 {
+.Sardor_Nav2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -157,7 +159,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.SardorNav2 ul {
+.Sardor_Nav2 ul {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -166,19 +168,19 @@ body {
   justify-content: center;
   align-items: center;
 }
-.SardorNav2 ul:first-child {
+.Sardor_Nav2 ul:first-child {
   padding-top: 100px;
 }
-.SardorNav2 ul:first-child li:first-child {
+.Sardor_Nav2 ul:first-child li:first-child {
   margin-bottom: 30px;
 }
-.SardorNav2 ul:last-child {
+.Sardor_Nav2 ul:last-child {
   width: 86.4px;
   border-top: 2px solid #EAEAEA;
   padding-top: 26px;
   padding-right: 28.8px;
 }
-.SardorNav2 ul li {
+.Sardor_Nav2 ul li {
   width: 100%;
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -211,7 +213,7 @@ main section {
   align-items: flex-start;
   gap: 50px;
 }
-main section .SardorTop {
+main section .Sardor_Top {
   width: 100%;
   height: 100px;
   display: flex;
@@ -219,30 +221,30 @@ main section .SardorTop {
   align-items: center;
   gap: 2.5%;
 }
-main section .SardorTop .SardorLeft {
+main section .Sardor_Top .Sardor_Left {
   width: 7.5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main section .SardorTop .SardorLeft img {
+main section .Sardor_Top .Sardor_Left img {
   width: 100%;
 }
-main section .SardorTop .SardorMid {
+main section .Sardor_Top .Sardor_Mid {
   display: grid;
   justify-content: flex-start;
 }
-main section .SardorTop .SardorMid p {
+main section .Sardor_Top .Sardor_Mid p {
   font-weight: 600;
   font-size: 24px;
   color: #181818;
 }
-main section .SardorTop .SardorRight {
+main section .Sardor_Top .Sardor_Right {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-main section .SardorTop .SardorRight a {
+main section .Sardor_Top .Sardor_Right a {
   width: 50px;
   height: 50px;
   display: flex;
@@ -251,7 +253,7 @@ main section .SardorTop .SardorRight a {
   border-radius: 50%;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 }
-main section .SardorBottom {
+main section .Sardor_Bottom {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -259,43 +261,43 @@ main section .SardorBottom {
   align-items: center;
   gap: 25px;
 }
-main section .SardorBottom .SardorTitle {
+main section .Sardor_Bottom .Sardor_Title {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-main section .SardorBottom .SardorTitle p {
+main section .Sardor_Bottom .Sardor_Title p {
   font-weight: 600;
   font-size: 24px;
   color: #181818;
 }
-main section .SardorBottom .SardorInfos {
+main section .Sardor_Bottom .Sardor_Infos {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-content: flex-start;
   gap: 40px;
 }
-main section .SardorBottom .SardorInfos .SardorInLeft {
+main section .Sardor_Bottom .Sardor_Infos .Sardor_In_Left {
   display: grid;
   gap: 24px;
 }
-main section .SardorBottom .SardorInfos .SardorInLeft p {
+main section .Sardor_Bottom .Sardor_Infos .Sardor_In_Left p {
   font-weight: 400;
   font-size: 20px;
   color: #5E5757;
 }
-main section .SardorBottom .SardorInfos .SardorInRight {
+main section .Sardor_Bottom .Sardor_Infos .Sardor_In_Right {
   display: grid;
   gap: 22px;
 }
-main section .SardorBottom .SardorInfos .SardorInRight p {
+main section .Sardor_Bottom .Sardor_Infos .Sardor_In_Right p {
   font-weight: 400;
   font-size: 24px;
   color: #181818;
 }
-main section .SardorBottom .SardorInfos .SardorInRight a {
+main section .Sardor_Bottom .Sardor_Infos .Sardor_In_Right a {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -303,28 +305,27 @@ main section .SardorBottom .SardorInfos .SardorInRight a {
   font-size: 24px;
   color: #181818;
 }
-main section .SardorBottom .SardorInfos .SardorInRight a:first-child {
+main section .Sardor_Bottom .Sardor_Infos .Sardor_In_Right a:first-child {
   margin-top: -4.7px;
   color: #FE8627;
 }
 
-.SardorBackModal {
+.Sardor_Back_Modal {
   position: absolute;
   width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
   background: rgba(66, 64, 64, 0.21);
-  display: flex;
   display: none;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.SardorBackModal p {
+.Sardor_Back_Modal p {
   margin: 0;
 }
-.SardorBackModal .SardorModal {
+.Sardor_Back_Modal .Sardor_Modal {
   position: relative;
   padding: 3%;
   display: grid;
@@ -334,31 +335,31 @@ main section .SardorBottom .SardorInfos .SardorInRight a:first-child {
   box-shadow: 0px 0px 10px rgba(254, 134, 39, 0.41);
   gap: 6%;
 }
-.SardorBackModal .SardorModal .SardorModTop {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Top {
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-content: center;
   align-items: center;
   gap: 3%;
 }
-.SardorBackModal .SardorModal .SardorModTop .SardorModTopLeft {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Top .Sardor_Mod_Top_Left {
   width: 70px;
   display: grid;
   justify-content: flex-end;
   gap: 34px;
 }
-.SardorBackModal .SardorModal .SardorModTop .SardorModTopLeft p {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Top .Sardor_Mod_Top_Left p {
   text-align: end;
   font-weight: 400;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.72);
 }
-.SardorBackModal .SardorModal .SardorModTop .SardorModTopRight {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Top .Sardor_Mod_Top_Right {
   display: grid;
   justify-content: flex-start;
   gap: 20px;
 }
-.SardorBackModal .SardorModal .SardorModTop .SardorModTopRight input {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Top .Sardor_Mod_Top_Right input {
   width: 543px;
   height: 41px;
   padding: 7px 10px;
@@ -369,24 +370,24 @@ main section .SardorBottom .SardorInfos .SardorInRight a:first-child {
   font-weight: 400;
   font-size: 18px;
 }
-.SardorBackModal .SardorModal .SardorModTop .SardorModTopRight input:focus {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Top .Sardor_Mod_Top_Right input:focus {
   outline: none;
 }
-.SardorBackModal .SardorModal .SardorModBottom {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Bottom {
   width: 101.5%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 3%;
 }
-.SardorBackModal .SardorModal .SardorModBottom .SardorModExit {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Bottom .Sardor_Mod_Exit {
   font-weight: 400;
   font-size: 20px;
   background: none;
   border: none;
   color: #222020;
 }
-.SardorBackModal .SardorModal .SardorModBottom .SardorModSave {
+.Sardor_Back_Modal .Sardor_Modal .Sardor_Mod_Bottom .Sardor_Mod_Save {
   width: 124px;
   height: 34px;
   font-weight: 400;
@@ -402,13 +403,41 @@ main section .SardorBottom .SardorInfos .SardorInRight a:first-child {
 }
 
 @media only screen and (max-width: 1441px) {
-  .SardorImg1 {
-    top: 113.5px !important;
+  .Sardor_Img1 {
+    top: 110.5px !important;
   }
-  .SardorImg2 {
-    top: 175.5px !important;
+  .Sardor_Img2 {
+    top: 171.5px !important;
   }
-  .SardorImg3 {
-    top: 236.5px !important;
+  .Sardor_Img3 {
+    top: 232px !important;
+  }
+}
+@media only screen and (max-width: 1114px) {
+  .Sardor_Img1 {
+    top: 100.5px !important;
+    right: 40px !important;
+  }
+  .Sardor_Img2 {
+    top: 162px !important;
+    right: 40px !important;
+  }
+  .Sardor_Img3 {
+    top: 222px !important;
+    right: 40px !important;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .Sardor_Img1 {
+    top: 98px !important;
+    right: 35px !important;
+  }
+  .Sardor_Img2 {
+    top: 159px !important;
+    right: 35px !important;
+  }
+  .Sardor_Img3 {
+    top: 220px !important;
+    right: 35px !important;
   }
 }/*# sourceMappingURL=Sardor'sStyle.css.map */
